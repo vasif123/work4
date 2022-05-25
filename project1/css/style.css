@@ -1,0 +1,196 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+#Header{
+    padding: 20px 4rem;
+    overflow: auto;
+    background-color: rgba(51, 51, 51, 0.597);
+    position: fixed;
+    width: 100%;
+}
+#Header .left {
+    width: 20%;
+    float: left;
+}
+#Header .right {
+    width: 80%;
+    float: right;
+    margin-top: 12px;
+    text-align: right;
+}
+#Header .right a{
+    color: #fff;
+    margin-left: 20px;
+}
+#Meet{
+    background-image: url(https://startbootstrap.github.io/startbootstrap-agency/assets/img/header-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    height: 100vh;
+    padding-top: 15rem;
+    color: #fff;
+}
+#Meet h2{
+    font-size: 36px;
+}
+#Meet h1{
+    font-size: 72px;
+    margin-bottom: 40px;
+}
+#Meet a ,#work2 .bottom a{
+    background-color: #ffc800;
+    padding: 20px 40px;
+    font-size: 18px;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: bold;
+    transition: 0.4s;
+}
+#Meet a:hover{
+    background-color: #ac8804;
+}
+#Service{
+    padding: 5rem 4rem;
+    overflow: auto;
+}
+
+.service-text,.works-text,.work1-text,.work2-text{
+    text-align: center;
+}
+
+.service-text h3,.works-text h3,.work1-text h3,.work2-text h3{
+    font-size: 40px;
+    color: #212529;
+}
+
+.service-text p,.works-text p,.work1-text p,.work2-text p{
+    color: #6c757d;
+    font-size: 1rem;
+    margin-top: 15px;
+    font-style: italic;
+}
+
+.service-box {
+    margin-top: 50px;
+}
+
+.service-box .box{
+    width: calc(100%/3);
+    float: left;
+    text-align: center;
+    padding: 0 20px;
+}
+.service-box svg{
+    background-color: #ffc800;
+    height: 5rem;
+    color: #fff;
+    padding: 10px;
+}
+.service-box .box h3{
+    font-size: 24px;
+    color: #212529;
+    margin: 6px 0;
+}
+
+.service-box .box p{
+    font-size: 16px;
+    color: #6c757d;
+}
+
+
+#Works{
+    background-color: #F8F9FA;
+    padding: 4rem;
+    overflow: auto;
+}
+
+.work-box .box{
+    width: 30%;
+    float: left;
+    margin: 0 10px;
+}
+
+.work-box .box:hover img{
+    filter: grayscale(1);
+}
+
+hr{
+    margin-top: 50px;
+    width: 20%;
+    background-color: red;
+    border: 1px solid red;
+}
+.work-box {
+    margin-top: 40px;
+}
+.work-box .box img{
+    width: 100%;
+    transition: .5s;
+}
+.work-box .box .bottom{
+    text-align: center;
+    background-color: #fff;
+    padding: 20px 0;
+}
+#work1{
+    background-color: #F8F9FA;
+    padding: 4rem;
+    overflow: auto;
+    
+}
+.work1-box .box1{
+    width: 30%;
+    float: left;
+    margin: 0 10px;
+    
+}
+.work1-box {
+    margin-top: 40px;
+}
+.work1-box .box1 img{
+    width: 20rem;
+    border-radius: 50%;
+    
+}
+.work1-box .box1 .bottom{
+    text-align: center;
+    background-color: #fff;
+    padding: 20px 20px;
+}
+#work2{
+    background-color: #212529;
+    padding: 4rem;
+    overflow: auto;
+    background-image: url(https://startbootstrap.github.io/startbootstrap-agency/assets/img/map-image.png);
+}
+.work2-text h3{
+    color: #F8F9FA !important;
+}
+.work2-text p{
+    color: #F8F9FA !important;
+}
+.work2-box .box .text{
+    width: 48%;
+    float: left;
+    margin: 0 10px;
+    padding-top: 2rem; 
+}
+
+#work2 .bottom{
+    
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding-top: 21rem;
+    color: #fff;
+    
+}
+#work2 .bottom a:hover{
+    background-color: #ac8804;
+}
